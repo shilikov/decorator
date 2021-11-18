@@ -44,8 +44,8 @@ def log_to_file(log_file):
                            f"time: {times}\n"
                            f"name: {func_name}\n"
                            f"args: {args, kwargs}\n"
-                           f"result: {result}\n\n"
-                           f'функция работала {elapsed} секунд(ы)'
+                           f"result: {result}\n"
+                           f'функция работала {elapsed} секунд(ы)\n\n'
                            )
 
             return result
